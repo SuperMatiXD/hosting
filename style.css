@@ -52,21 +52,22 @@ div.xd img{
     align-items: center;
 }
 .caja img{
-    border-radius: 50%;
+    border-radius: 10%;
 }
 .basev{
     display: flex;
-    flex-direction: row;
     margin: (15px 0px 15px 0px);
+    flex-direction: row;
     background-color: aliceblue;
-    justify-content: center;
+    justify-content: normal;
+    width: 1349px;
 }
 .caja2{
     width: 100%;
-    padding: 10px;
+    padding: 14px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: normal;
     align-items: center;
 }
 p3{
@@ -228,6 +229,11 @@ footer p{
     background-color: aliceblue;
     justify-content: center;
     }
+    .carousel-inner img{
+        width: 100%;
+        max-height: 700px;
+        padding: 10px;
+    }
 }
 .container-fluid img{
    width: 55px;
@@ -246,4 +252,25 @@ div.Principal{
     justify-content: center;
     border: 20px ridge cornflowerblue;
     margin: 0px;
+}
+.carousel-inner{
+    width: 100%;
+    height: 650px;
+    padding: 10px;
+    display: flex;
+}
+.carousel-inner h1{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+}
+.carousel-inner p{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    background-color: rgba(240, 248, 255, 0.397);
+    background-position-x: 30px;
+}
+.cuerpobase .caja img{
+    width: 250px;
 }
