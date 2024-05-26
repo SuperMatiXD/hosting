@@ -251,11 +251,12 @@ div.Principal{
 .baseF{
     display: flex;
     flex-direction: row;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     justify-content: center;
 }
 .baf{
     display: flex;
+    background-color: rgb(255, 255, 255);
     margin: 15px;
 }
 @media screen and (max-width:1000px){
