@@ -141,13 +141,11 @@ p3{
 }
 .caja3 h1{
     display: flex;
-    margin-left: 60px;
     background-color: rgb(255, 255, 255);
     color: blueviolet;
     width: 102%;
 }
 .caja4 h1{
-    margin-left: 120px;
     background-color: rgb(255, 255, 255);
     color: rgb(170, 14, 45);
     width: 102%;
