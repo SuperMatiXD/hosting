@@ -265,7 +265,7 @@ div.Principal{
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     justify-content: center;
-    width: 480px;
+    width:180px;
     }
     .cuerpobase{
     display: flex;
@@ -283,13 +283,12 @@ div.Principal{
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
-    justify-content: center;
-    margin-left: 50px;
+    width: 180px;
     }
     .baf{
     display: flex;
     flex-direction: column;
-    margin: 15px;
+    margin: 100%x;
     }
     .Principal{
     display: flex;
